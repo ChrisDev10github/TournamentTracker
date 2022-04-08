@@ -20,8 +20,8 @@ def startup():
             validnumber =True
         else:
             print("Error try again")
-    for slot in numberpart:
-        listpart.append(numberpart)                 # for now
+    for slot in range(0,numberpart):
+        listpart.append('[Empty]')                 # for now
     print("There are ",numberpart," participant slots ready for sign-ups")    
 
 
