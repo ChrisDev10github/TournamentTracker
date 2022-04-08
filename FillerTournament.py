@@ -45,6 +45,8 @@ def signup():
             mainmenu()
 
 def cancel():
+    global cancelslotpref
+    global cancelname
     print('''Participant Cencellation
         =====================''')    
     while cancelbool == False:
@@ -59,6 +61,7 @@ def cancel():
     
 
 def viewpart():
+    global numberpart
     print('''
             View Participants
             ==================
