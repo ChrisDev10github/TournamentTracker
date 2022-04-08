@@ -12,6 +12,7 @@ cancelname=''
 name=''
 
 def startup():
+    global validnumber
     print("Welcome to Tournaments R Us")
     while validnumber ==False:
         numberpart = int(input('Enter the number of participants: '))
